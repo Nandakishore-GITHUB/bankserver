@@ -1,0 +1,70 @@
+Server Side 
+-------------------------------------
+1. Create folder to create a Server
+2. cmd -> npm init  (for package.json)
+
+
+Server Creation - using express
+--------------------------
+
+install express 
+        cmd -> npm i express
+    
+    1. Import Express
+        const express = require('express')
+
+    2. create an app using Express
+        const app = express()
+
+    3. create port number (server working on 3000 series)
+
+    4. create requests according to our project 
+        
+        ...... etc
+
+
+nodemon Server
+-----------------------------
+
+install 
+    - npm i -g nodemon
+
+
+User authentication Using Express
+-----------------------------------------
+
+    JWT(Json Web Token) tocken
+    ------------------------------
+
+        jsonwebtocken - library  - npm i jsonwebtoken
+        
+            sign()    - method used for generating token
+
+            varify()  - method used to varify JWT token
+
+
+Middlewares in Express
+---------------------------------
+
+    - middlewares have the capacity to control server requests
+    - it is a function with 3 arguments 
+        - (request, response , next)
+    
+    - two types
+
+        1. Application Specific Middleware
+        2. Router Specific middleware
+
+
+Solving Run Time Errors in Javascript
+-----------------------------------------------------
+
+    - try catch
+
+    - try{
+        error causing code
+    }
+
+    - catch{
+        solution
+    }
